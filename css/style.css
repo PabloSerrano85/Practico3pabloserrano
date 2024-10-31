@@ -160,4 +160,33 @@
   margin-top: -40%;
 }
 
+
+@media screen and (max-width:800px) {
+
+  
+  .card-deck{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+    .card-block1{
+      margin-left: 18%;
+    }
+
+    .card-block4{
+      margin-left: 18%;
+    }
+  
+  .header__botones-menu{
+    display:flex;
+    flex-direction: column;
+    
+  }
+  .footer__links-ul{
+    display:block
+    
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
+
